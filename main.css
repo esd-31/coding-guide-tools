@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+.title {
+    background-color: #2B2D32;
+    padding: 30px;
+    position: relative;
+}
+
+.title>h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    color: #ffffff;
+    user-select: none;
+}
+
+.theme-content {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    border: solid 2px dodgerblue;
+    padding: 10px;
+    cursor: pointer;
+}
+.theme-content > img {
+    width: 30px;
+    user-select: none;
+}
+.dark-mode {
+    background-color: #2B2D32;
+    color: #ffffff;
+    transition: 1s;
+}
+.main-container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: dodgerblue;
+    width: 900px;
+    height: 60vh;
+    border-radius: 15px;
+    box-shadow: 4px 7px 5px dodgerblue;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 2em;
+}
+.w3school-context {
+    background-color: #000;
+    padding: 20px; 
+    cursor: pointer;
+    width: 200px;
+}
+.w3school-context:hover {
+    background-color: #2B2D32;
+    transform: translateY(-10px);
+    transition: 600ms;
+}
+.w3school-context > h2 {
+    color: #ffffff;
+    user-select: none;
+    text-align: center;
+}
+.roadmap-context {
+    background-color: #000;
+    padding: 20px;
+    cursor: pointer;
+    width: 200px;
+}
+.roadmap-context:hover {
+    background-color: #2B2D32;
+    transform: translateY(-10px);
+    transition: 600ms;
+}
+.roadmap-context > h2 {
+    color: #ffffff;
+    user-select: none;
+    text-align: center;
+}
+.tools-context {
+    background-color: #000;
+    padding: 20px; 
+    cursor: pointer;
+    width: 200px;
+}
+.tools-context:hover {
+    background-color: #2B2D32;
+    transform: translateY(-10px);
+    transition: 600ms;
+}
+.tools-context > h2 {
+    color: #ffffff;
+    user-select: none;
+    text-align: center;
+}
+.hr-separator {
+    margin-top: 5%;
+}
+.frame-container {
+    width: 800px;
+    height: 35vh;
+    background-color: gray;
+    opacity: 0.8;
+    padding: 10px;
+    margin-left: 4.50%;
+}
+#frame-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+.logo-container {
+    margin-top: -3;
+    margin-left: 65%;
+}
+.D-logo > img {
+    -webkit-user-drag: none;
+}
+.rotation {
+    transform: rotate(360deg);
+}
